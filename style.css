@@ -1,6 +1,6 @@
 body{
     background-color: rgb(3, 83, 83);
-display: flex;
+
 }
 .container{
     
@@ -31,4 +31,29 @@ margin-left: 20%;
 }
 divimage{
     margin-top: 10px;
+}
+.table0{
+
+}
+.table0{
+    position: relative;
+    
+    top: 220px;
+    right: 200px;
+}
+
+#Submit{
+    background-color: brown;
+}
+#reset{
+    background-color: aqua;
+}
+
+#forms{
+    background-color: rgb(72, 127, 109);
+    text-align: center;
+}
+
+#formsBody{
+margin-left: 80px;
 }
