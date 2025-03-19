@@ -19,23 +19,56 @@
         <label for="text">Full Name</label><br>
         <input type="text" placeholder="e.g Thomas Gadasu" name="text" id="text" required><br><br>
 
+<label for="dob">Date of Birth</label><br>
+<input type="date" name="dob"><br><br>
+
         <label for="email">Email</label><br>
         <input type="email" name="email" id="email" placeholder="e.g gadasuthomas@gmail.com" required><br><br>
        
         <label for="number">Phone Number</label><br>
-        <input type="number" name="number" id="number" placeholder="ten digits e.g 245477957">
+        <input type="number" name="number" id="number" placeholder="ten digits e.g 245477957"><br><br>
+        <label for="home">Hometown</label><br>
+        <input type="text" name="home" id="home"><br><br>
+   <label for="">Select gender</label><br>
+   <label for="male">Male</label>
+   <input type="radio" name="gender" id="male" value="male"> 
+  <label for="female">Female</label>
+  <input type="radio" name="gender" id="female" value="female">
+  <label for="others">Others</label>
+  <input type="radio" name="gender" id="others" value="others">
+   <br><br>
 
-        <ol>
-            <li>Password must be at least 8 characters long</li>
-            <li>password must contain at least two symbols</li>
-            <li>password must contain at least 3 numbers</li>
-            <li>password must have both upper and lower case character</li>
-        </ol>
+
+       <label for="eduction">Educational Status</label><br>
+       <label for="basic">Basic</label>
+    <input type="checkbox">
+    <label for="secondary">Secondary</label>
+    <input type="checkbox">
+    <label for="tertiary">Tertiary</label>
+    <input type="checkbox">
+    <br><br>
+       <label for="religion">Religion</label><br>
+       <input type="text" name="religion" id="religion"><br><br>
+       <label for="fileupload">Upload file</label><br>
+       <input type="file" name="fileupload" id="fileupload"><br><br>
+       <label for="marital">Marital Status</label><br>
+       <select name="marital" id="marital">
+        <option value="single">Single</option>
+        <option value="married">Married</option>
+        <option value="divorce">Divorce</option>
+        <option value="preferNotToSay">Prefer Not To Say</option>
+       </select><br><br>
 <label for="Password1"> Password</label><br>
 <input type="text" name="password1" id="password1"><br><br>
 
 <label for="password required">Confirm password</label><br>
 <input type="password" name="password" id="password"><br><br>
+<ol>
+    <li>Password must be at least 8 characters long</li>
+    <li>password must contain at least two symbols</li>
+    <li>password must contain at least 3 numbers</li>
+    <li>password must have both upper and lower case character</li>
+</ol>
 
 <button type="submit" id="reset" >click to reset</button>
 <button id="Submit" type="submit">Submit</button>
